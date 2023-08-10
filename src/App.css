@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+  
+}
+
+                
+:root {
+  background-color: rgb(222, 238, 239);
+}
+
+.calculator-container {
+  margin: 50px auto;
+  
+}
+
+.calculator {
+  background-color: black;
+  padding: 20px;
+  height: 350px;
+  width: 210px;
+  margin: 50px auto;
+  border-radius: 5px;
+  flex-direction: row;
+}
+
+.display {
+  color: black;
+  background-color: rgb(224, 224, 224);
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5px auto;
+  font-size: 30px;
+  width: 200px;
+  height: 100px;
+}
+
+#input {
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  margin: auto;
+  flex-wrap: wrap;
+  height: 250px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.first-button-row {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 50px;
+}
+
+.button-block {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 200px;
+}
+
+.right-button-block {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50px;
+  height: 150px;
+}
+
+#clear {
+  background-color: red;
+  height: 50px;
+  width: 100px;
+}
+
+#divide {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(179, 175, 175);
+}
+
+#multiply {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(179, 175, 175);
+}
+
+#seven {
+  height: 50px;
+  width: 50px;
+}
+
+#eight {
+  height: 50px;
+  width: 50px;
+}
+
+#nine {
+  height: 50px;
+  width: 50px;
+}
+
+#subtract {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(179, 175, 175);
+}
+
+#four {
+  height: 50px;
+  width: 50px;
+}
+
+#five {
+  height: 50px;
+  width: 50px;
+}
+
+#six {
+  height: 50px;
+  width: 50px;}
+
+#add {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(179, 175, 175);
+}
+
+#one {
+  height: 50px;
+  width: 50px;}
+
+#two {
+  height: 50px;
+  width: 50px;}
+
+#three {
+  height: 50px;
+  width: 50px;}
+
+#equals {
+  height: 100px;
+  width: 50px;
+  background-color: lightblue
+}
+
+#zero {
+  height: 50px;
+  width: 100px;
+}
+
+#decimal {
+  height: 50px;
+  width: 50px;
+}
+
+
+
